@@ -21,7 +21,7 @@ const displaySearchResult = data => {
     const number = `${data.numFound}`;
     console.log(number);
     
-    if(number==0){
+    if(number===0){
         document.getElementById("num").innerHTML = "No result Found";
     }
     
